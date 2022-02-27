@@ -1,5 +1,5 @@
 ---
- - hosts: myserver
+ - hosts: 172.31.18.77
    become: yes                                                                                                                        
    roles:
     - {role: Tomcatubantu, when: ansible_os_family =="Debian"} 
